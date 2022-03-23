@@ -1,0 +1,27 @@
+ipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'bulding'
+            }
+        } 
+        stage('test') {
+            steps {
+                echo 'testing'
+            }
+        } 
+        stage('deivery') {
+            steps {
+                echo 'delivering'
+            }
+        }    
+        
+    }
+}    
